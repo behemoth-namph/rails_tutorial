@@ -12,6 +12,7 @@ gem 'sqlite3', '1.4.2'
 gem 'byebug', '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
 end
 group :development do
+  gem 'sqlite3', '1.4.2'
   gem 'web-console',        '4.1.0'
   gem 'rack-mini-profiler', '2.3.1'
   gem 'listen',             '3.4.1'
